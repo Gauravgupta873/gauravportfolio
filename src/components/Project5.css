@@ -1,0 +1,120 @@
+/* Container */
+.project5-container {
+  padding: 0;
+  background-color: #ffffff;
+      margin-top: 70px!important; 
+}
+
+/* SAME WIDTH FOR TEXT + IMAGE */
+.project5-content {
+  max-width: 900px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+/* Heading */
+.project5-heading {
+  font-size: 18px;           /* 🔥 bigger for visibility */
+  font-weight: 500;
+  margin: 10px 0 3px;
+  color: #111;
+}
+
+/* Description */
+.project5-description {
+  font-size: 12px;
+  color: #555;
+
+
+  text-align: justify; 
+
+ margin: 0 0 18px 0;
+}
+
+/* Image wrapper */
+.project5-image-wrapper {
+  width: 100%;
+}
+
+/* Image */
+.project5-image-wrapper img {
+  width: 100%;
+  border-radius: 14px;
+  display: block;
+  margin: 10px 0 20px 0;
+}
+
+/* 🔥 Bottom Content (TEXT SECTION) */
+.project5-bottom-content {
+  width: 50%;                /* 🔥 full width for better readability */
+  max-width: 900px;
+  margin: 20px auto;
+
+  background-color: #ffffff;  /* lighter grey */
+  padding: 20px;
+  border-radius: 12px;
+}
+
+/* Section Heading */
+.project5-bottom-content h5 {
+
+  margin-top: 10px;
+  margin-bottom: 5px;
+  
+}
+
+/* 🔥 Paragraph Styling (IMPORTANT) */
+.project5-bottom-content p {
+  font-size: 11px;
+         /* 🔥 proper spacing */
+  color: #333;
+  margin-bottom: 10px;
+  text-align: justify;       /* 🔥 report look */
+}
+
+/* Bold text highlight */
+.configure1-img {
+  width: 100%;
+  margin-bottom: 5px;
+   border-bottom: 1px solid #ccc;
+  border-top: 1px solid #ccc;
+  border-left: 1px solid #ccc;   /* 👈 left line */
+  border-right: 1px solid #ccc;  /* 👈 right line */
+}
+.configure-img {
+  width: 100%;
+  margin-bottom: -6px;
+
+  border-left: 1px solid #ccc;   /* 👈 left line */
+  border-right: 1px solid #ccc;  /* 👈 right line */
+}
+.last-image{
+  border-bottom: 1px solid #ccc;
+  margin-bottom: 5px;
+}
+/* 🔥 Responsive */
+@media (max-width: 768px) {
+  .project5-content {
+    padding: 0 20px;
+  }
+
+  .project5-heading {
+    font-size: 20px;
+  }
+  .project5-description{
+    font-size: 14px!important;
+    color: #111;
+  }
+
+  .project5-bottom-content {
+    padding: 15px;
+  }
+
+  .project5-bottom-content p {
+    font-size: 14px;
+  }
+  .project5-bottom-content {
+  width: 100%;                /* 🔥 full width for better readability */
+
+}
+}

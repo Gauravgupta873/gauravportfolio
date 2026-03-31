@@ -1,0 +1,214 @@
+/* GLOBAL */
+.experience-container {
+  padding: 80px;
+  background: #f5f5f5;
+}
+
+/* ========================= */
+/* 🔥 MAIN BANNER */
+
+.experience-banner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #ffffff;
+  border-radius: 12px;
+  max-width: 1000px;
+  margin: auto;
+  overflow: hidden;
+}
+
+/* LEFT */
+.experience-left {
+  flex: 1;
+  padding-left: 100px;
+}
+
+.experience-left h1 {
+  font-size: 60px;
+  font-weight: 400;
+  letter-spacing: 5px;
+}
+
+.experience-left p {
+  font-size: 25px;
+  color: #555;
+}
+
+/* RIGHT IMAGE */
+.experience-right {
+  flex: 1;
+  text-align: center;
+}
+
+.experience-right img {
+  width: 320px;
+  max-width: 100%;
+}
+
+/* ========================= */
+/* 🔥 ABOUT */
+
+.about-section {
+  margin-top: 40px;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.about-section h2 {
+  font-size: 20px;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+.about-section p {
+  font-size: 15px;
+  color: #555;
+  line-height: 1.6;
+  text-align: justify;
+}
+
+/* ========================= */
+/* 🔥 EDUCATION */
+
+.education-section {
+  margin-top: 50px;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.education-section h2 {
+  font-size: 20px;
+  margin-bottom: 25px;
+}
+
+/* TIMELINE */
+.timeline {
+  position: relative;
+  padding-left: 40px;
+}
+
+/* line */
+.timeline::before {
+  content: "";
+  position: absolute;
+  left: 20px;
+  top: 0;
+  width: 1.5px;
+  height: 100%;
+  background: #8f8f8f;
+}
+
+/* item */
+.timeline-item {
+  position: relative;
+  margin-bottom: 30px;
+}
+
+/* dot */
+.timeline-dot {
+  position: absolute;
+  left: -20px;
+  transform: translateX(-50%);
+  width: 12px;
+  height: 12px;
+  background: linear-gradient(135deg, #667eea, #764ba2);
+  border-radius: 50%;
+}
+
+/* content */
+.timeline-content {
+  background: #fff;
+  padding: 15px;
+  border-radius: 8px;
+  margin-left: 30px;
+}
+
+.timeline-content span {
+  font-size: 12px;
+  color: gray;
+}
+
+.timeline-content h3 {
+  font-size: 15px;
+  margin: 5px 0;
+}
+
+.timeline-content p {
+  font-size: 13px;
+  color: #555;
+}
+
+/* ========================= */
+/* 📱 MOBILE FIX (MAIN 🔥) */
+
+@media (max-width: 768px) {
+
+  /* 🔥 MAIN CONTAINER FIX */
+  .experience-container {
+    padding: 70px 10px;   /* 👈 sabse important fix */
+  }
+
+  /* 🔥 BANNER */
+  .experience-banner {
+    flex-direction: column;
+    text-align: center;
+    padding: 20px;
+    max-width: 100%;
+  }
+
+  /* TEXT */
+  .experience-left {
+    padding-left: 0;
+  }
+
+  .experience-left h1 {
+    font-size: 38px;
+    letter-spacing: 2px;
+  }
+
+  .experience-left p {
+    font-size: 18px;
+  }
+
+  /* IMAGE */
+  .experience-right img {
+    width: 220px;
+    margin-top: 10px;
+  }
+
+  /* ABOUT */
+  .about-section {
+    max-width: 100%;
+    padding: 0 10px;
+  }
+
+  .about-section p {
+    font-size: 14px;
+  }
+
+  /* EDUCATION */
+  .education-section {
+    max-width: 100%;
+    padding: 0 10px;
+  }
+
+  .timeline {
+    padding-left: 1px;
+  }
+
+  .timeline::before {
+    left: 10px;
+  }
+
+  .timeline-dot {
+    left: 10px;
+  }
+
+  .timeline-content {
+    margin-left: 20px;
+    padding: 12px;
+  }
+}

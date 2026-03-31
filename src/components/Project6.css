@@ -1,0 +1,171 @@
+.project6-container {
+  padding: 0;
+  background-color: #ffffff;
+      margin-top: 70px!important; 
+}
+
+/* 🔥 SAME WIDTH FOR TEXT + IMAGE */
+.project6-content {
+  max-width: 900px;   /* 👈 image ke equal */
+  margin: 0 auto;
+  text-align: left;
+}
+
+/* Heading */
+.project6-heading {
+  font-size: 20px;
+  font-weight: 500;
+  margin: 0;
+  color: #111;
+}
+
+/* Description */
+.project6-description {
+  font-size: 12px;
+  color: #666;
+  margin: 4px 0 12px 0;
+}
+
+/* Image wrapper */
+.project6-image-wrapper {
+  width: 100%;
+}
+
+/* Image */
+.project6-image-wrapper img {
+  width: 100%;
+  border-radius: 14px;
+  display: block;
+}
+.project6-bottom-content {
+  width: 50%;
+  max-width: 900px;
+  margin: 30px auto;
+
+  background-color: rgb(255, 255, 255);
+  padding: 20px;
+  border-radius: 10px;
+
+  /* 🔥 Paragraph styling */
+  text-align: justify;      /* text dono side se align */
+  line-height: 1.8;         /* line spacing */
+  font-size: 16px;          /* readable size */
+  color: #333;              /* soft dark text */
+}
+
+/* Paragraph ke liye */
+.project6-bottom-content p {
+ font-size: 12px;
+  margin-bottom: 10px;      /* har paragraph ke niche gap */
+}
+
+/* List ke liye */
+.project6-bottom-content li {
+  margin-left: 20px;
+ 
+}
+.configure6-img{
+  width: 100%;
+  margin-bottom: -6px;
+
+  border-left: 1px solid #ccc;   /* 👈 left line */
+  border-right: 1px solid #ccc;  /* 👈 right line */
+}
+/* 🔥 IMAGE FIX */
+.configuree6-img{
+  width: 100%;
+  max-width: 100%;
+
+  height: auto;
+  display: block;
+
+  object-fit: contain;   /* pura image dikhe */
+
+
+
+  margin: 10px 0;
+}
+.configure66{
+   
+  border-left: 1px solid #ccc;   /* 👈 left line */
+  border-right: 1px solid #ccc;  
+  border-top: 1px solid #ccc; ;
+}
+.configure666{
+   margin-top: -10px;
+  border-left: 1px solid #ccc;   /* 👈 left line */
+  border-right: 1px solid #ccc;  
+  border-bottom: 1px solid #ccc; ;
+}
+
+/* ---------------- */
+/* TABLET (<= 992px) */
+/* ---------------- */
+
+@media (max-width: 992px){
+
+  .project6-content{
+    max-width: 90%;
+  }
+
+  .project6-bottom-content{
+    width: 90%;              /* 🔥 pehle 50% tha */
+    margin: 20px auto;
+    padding: 18px;
+  }
+
+  .project6-bottom-content p{
+    font-size: 13px;
+  }
+
+  .project6-heading{
+    font-size: 18px;
+  }
+
+  .project6-description{
+    font-size: 13px;
+  }
+}
+
+
+/* ---------------- */
+/* MOBILE (<= 600px) */
+/* ---------------- */
+
+@media (max-width: 600px){
+
+  .project6-content{
+    max-width: 95%;
+    padding: 0 8px;         /* 🔥 side spacing */
+  }
+
+  .project6-bottom-content{
+    width: 95%;             /* 🔥 full width feel */
+    padding: 2px;
+    margin: 15px auto;
+  }
+
+  .project6-bottom-content p{
+    font-size: 13px;
+    line-height: 1.5;
+  }
+
+  .project6-heading{
+    font-size: 16px;
+  }
+
+  .project6-description{
+    font-size: 12px;
+  }
+
+  .project6-image-wrapper img{
+    border-radius: 10px;    /* thoda compact look */
+  }
+
+  /* 🔥 configure images spacing fix */
+  .configure6-img,
+  .configuree6-img{
+    margin: 8px 0;
+  }
+
+}

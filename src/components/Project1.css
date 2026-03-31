@@ -1,0 +1,161 @@
+/* ---------------- */
+/* CONTAINER */
+/* ---------------- */
+
+.p1-project{
+  width:100%;
+    margin-top: 70px!important; 
+
+}
+
+/* 🔥 MAIN WRAPPER (IMPORTANT) */
+.p1-project{
+  max-width:750px;      /* 🔥 same width control */
+  margin:auto;
+  padding:0 25px;
+}
+
+/* ---------------- */
+/* HEADING */
+/* ---------------- */
+
+.p1-heading{
+  width:100%;
+  margin:15px 0;
+
+  color:rgb(30,30,30);
+  font-size:22px;     /* ✅ same */
+  font-weight:200;
+  line-height:1.2;
+}
+
+/* ---------------- */
+/* TEXT */
+/* ---------------- */
+
+.p1-text{
+  width:100%;
+  margin:10px 0;
+
+  font-size:13px;     /* ✅ unchanged */
+  line-height:1.8;
+  letter-spacing:0.3px;
+
+  color:#1b1b1b;
+
+  text-align:justify;
+  text-align-last:left;
+}
+
+/* ---------------- */
+/* LIST */
+/* ---------------- */
+
+.p1-text ul{
+  margin:5px 0;
+  padding-left:18px;
+  
+}
+
+.p1-text li{
+  margin-bottom:6px;
+  font-size:13px;
+  line-height:1.6;
+}
+
+/* ---------------- */
+/* IMAGE */
+/* ---------------- */
+
+.p1-img{
+  width:100%;
+  max-width:750px;    /* 🔥 same as text */
+
+  height:auto;        /* 🔥 no crop */
+  object-fit:contain;
+
+  border-radius:12px;
+  display:block;
+  margin:15px 0;
+}
+
+/* ---------------- */
+/* TABLET */
+/* ---------------- */
+
+@media (max-width:992px){
+
+  .p1-project{
+    max-width:650px;
+  }
+
+  .p1-heading{
+    font-size:20px;
+  }
+
+  .p1-text,
+  .p1-text li{
+    font-size:15px;
+  }
+}
+
+/* ---------------- */
+/* MOBILE */
+/* ---------------- */
+
+@media (max-width:600px){
+
+  .p1-project{
+    max-width:100%;
+    padding:0 16px;   /* 🔥 spacing */
+  }
+
+  .p1-heading{
+    font-size:22px;
+  }
+
+  .p1-text,
+  .p1-text li{
+    font-size:14px;
+    line-height:1.6;
+  }
+
+  .p1-img{
+    width:100%;
+    height:auto;
+  }
+}
+
+/* ---------------- */
+/* BUTTON */
+/* ---------------- */
+
+.project-btn-container{
+  text-align:center;
+  margin-top: 50px!important;
+  margin-bottom: 40px;
+  
+}
+
+.project-btn{
+  display:inline-block;
+  padding:12px 28px;
+
+  font-size:16px;
+  font-weight:500;
+
+  color:#fff;
+  background:linear-gradient(135deg, #4f46e5, #7c3aed);
+
+  border-radius:30px;
+  text-decoration:none;
+
+  box-shadow:0 8px 25px rgba(79, 70, 229, 0.3);
+
+  transition:all 0.3s ease;
+}
+
+.project-btn:hover{
+  transform:translateY(-3px) scale(1.03);
+  box-shadow:0 12px 30px rgba(79, 70, 229, 0.4);
+}

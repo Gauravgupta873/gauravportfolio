@@ -1,0 +1,163 @@
+/* CONTAINER */
+.ap-container {
+  padding: 70px 120px;
+  background: #ffffff;
+}
+
+/* TITLE */
+.ap-title {
+  max-width: 1200px;
+  margin: auto;
+  font-size: 50px;
+  font-weight: 350;
+  margin-bottom: 20px;
+}
+
+/* GRID */
+.ap-grid {
+  max-width: 1200px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;   /* 🔥 same gap everywhere */
+}
+
+/* CARD */
+.ap-card {
+  border-radius: 10px;
+  width: 500px;
+  padding: 5px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.ap-card:hover {
+  transform: translateY(-6px);
+}
+
+/* IMAGE */
+.ap-img-box {
+  width: 100%;
+  height: 240px;   /* 🔥 perfect ratio */
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+.ap-img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+/* CONTENT */
+.ap-content {
+  padding-top: 12px;
+}
+
+.ap-type {
+  font-size: 14px;
+  color: #666;
+  margin-left: 5px;
+}
+
+.ap-heading {
+  font-size: 13px;
+  font-weight: 500;
+  margin-left: 5px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.ap-heading-1{
+  color:#243e55
+}
+.ap-heading-2{
+  color:#421a6a
+}
+.ap-heading-3{
+  color:#234b58
+}
+.ap-heading-4{
+  color:#494714
+}
+.ap-heading-5{
+  color:#404510
+}
+.ap-heading-6{
+  color:#2b1830
+}
+
+/* BACKGROUNDS (same style as screenshot) */
+.ap-bg-1 {  background: #e7f2ff;}
+.ap-bg-2 {  background: linear-gradient(135deg, #d3ecff, #f3f0fc);}
+.ap-bg-3 { background: #edffff;}
+.ap-bg-4 { background:  #fff2d9;}
+.ap-bg-5 { background:  #fffaf1;}
+.ap-bg-6 { background:  #f5f3ff;}
+
+/* ---------------- */
+/* TABLET FIX */
+/* ---------------- */
+
+@media (max-width: 992px){
+
+  .ap-container {
+    padding: 20px 40px;   /* ✅ reduce side spacing */
+  }
+
+  .ap-title {
+    font-size: 36px;
+  }
+
+  .ap-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 16px;
+  }
+
+  .ap-card {
+    width: 100%;   /* ❌ 500px remove effect */
+  }
+
+  .ap-img-box {
+    height: 200px;
+  }
+
+  .ap-heading {
+    font-size: 14px;
+  }
+}
+
+/* ---------------- */
+/* MOBILE FIX */
+/* ---------------- */
+
+@media (max-width: 600px){
+
+  .ap-container {
+    padding: 15px 15px;   /* ✅ proper mobile spacing */
+  }
+
+  .ap-title {
+    font-size: 28px;
+  }
+
+  .ap-grid {
+    grid-template-columns: 1fr;
+    gap: 14px;
+  }
+
+  .ap-card {
+    width: 100%;   /* ✅ full width */
+  }
+
+  .ap-img-box {
+    height: 180px;
+  }
+
+  .ap-type {
+    font-size: 12px;
+  }
+
+  .ap-heading {
+    font-size: 13px;
+  }
+}
