@@ -1,12 +1,12 @@
 
 
-import voting from "../assets/Voting/Voting1.png";
-import vote2 from "../assets/Voting/Vote2.jpeg";
-import vote3 from "../assets/Voting/Vote3.jpeg";
-import vote4 from "../assets/Voting/Vote4.png";
-import vote5 from "../assets/Voting/Vote5.jpeg";
-import vote6 from "../assets/Voting/Vote6.png";
-import vote7 from "../assets/Voting/Vote7.png";
+import voting from "../assets/Voting/voting1.png";
+import vote2 from "../assets/Voting/vote2.jpeg";
+import vote3 from "../assets/Voting/vote3.jpeg";
+import vote4 from "../assets/Voting/vote4.png";
+import vote5 from "../assets/Voting/vote5.jpeg";
+import vote6 from "../assets/Voting/vote6.png";
+import vote7 from "../assets/Voting/vote7.png";
 
 
 
