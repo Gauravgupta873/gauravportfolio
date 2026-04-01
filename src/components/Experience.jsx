@@ -1,6 +1,6 @@
 import React from "react";
 import "./Experience.css";
-import myImg from "../assets/gg5.png";
+import myImg from "../assets/guarv.png";
 
 const Experience = () => {
   return (
