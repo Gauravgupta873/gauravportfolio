@@ -1,13 +1,13 @@
 import "./Projects.css"
 
-import stock from "../assets/Stock.png"
+
 import stock1 from "../assets/Stock1.png"
-import Load3 from "../assets/load3.png"
+
 import Load2 from "../assets/load2.png"
 import banking from "../assets/banking.png"
-import blinkit from "../assets/blinkit.png"
+
 import olympics from "../assets/olympics.png"
-import LoadBalancer from "../assets/LoadBalancer.png"
+
 import certi from "../assets/certi.jpg"
 
 import video2 from "../assets/2.mp4"

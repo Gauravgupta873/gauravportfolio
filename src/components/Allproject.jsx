@@ -3,7 +3,7 @@ import "./Allproject.css";
 
 
 import banking from "../assets/banking.png";
-import LoadBalancer from "../assets/Load3.png";
+import LoadBalancer from "../assets/load3.png";
 import olympics from "../assets/olympics.png";
 import blinkit from "../assets/blinkit.png";
 import voting from "../assets/Voting.png";
