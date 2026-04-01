@@ -9,7 +9,7 @@ import blinkit from "../assets/blinkit.png"
 import olympics from "../assets/olympics.png"
 import LoadBalancer from "../assets/LoadBalancer.png"
 import certi from "../assets/certi.jpg"
-import video from "../assets/1.mp4"
+
 import video2 from "../assets/2.mp4"
 
 import  voting from "../assets/Voting.png"
