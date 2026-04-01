@@ -1,6 +1,6 @@
 import "./Hero.css"
 
-import profile1 from "../assets/gaurav-img.png"
+import profile1 from "../assets/profile.png"
 
 import { FaEnvelope, FaGithub, FaLinkedin, FaTwitter, FaInstagram } from "react-icons/fa"
 
