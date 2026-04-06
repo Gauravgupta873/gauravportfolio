@@ -1,6 +1,6 @@
 
 
-import voting from "../assets/Optimized/voting1.webp";
+import voting from "../assets/Optimized/vote1.webp";
 import vote2 from "../assets/Optimized/vote2.webp";
 import vote3 from "../assets/Optimized/vote3.webp";
 import vote4 from "../assets/Optimized/vote4.webp";
