@@ -2,7 +2,8 @@ import { useState, useEffect } from "react";
 
 
 import landingpage from "../assets/Optimized/landingpage.webp";
-
+// add this temporary comment
+// fix deploy
 import mobile from "../assets/Optimized/mobile.webp";
 import mobile2 from "../assets/Optimized/mobile2.webp";
 import mobile3 from "../assets/Optimized/mobile3.webp";
