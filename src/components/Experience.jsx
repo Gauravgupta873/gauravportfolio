@@ -1,6 +1,6 @@
 import React from "react";
 import "./Experience.css";
-import myImg from "../assets/guarv.png";
+import myImg from "../assets/Optimized/guarv.webp";
 
 const Experience = () => {
   return (
@@ -15,7 +15,7 @@ const Experience = () => {
         </div>
 
         <div className="experience-right">
-          <img src={myImg} alt="My Image" />
+          <img src={myImg} alt="My Image"  loading="eager" decoding="async"  />
         </div>
 
       </div>

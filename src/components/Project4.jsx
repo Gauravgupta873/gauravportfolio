@@ -1,13 +1,13 @@
 
 
-import landing from "../assets/LoadBalancer/landing.png";
-import land1 from "../assets/LoadBalancer/land1.png";
-import land2 from "../assets/LoadBalancer/land2.png";
-import land3 from "../assets/LoadBalancer/land3.png";
-import land4 from "../assets/LoadBalancer/land4.png";
-import land5 from "../assets/LoadBalancer/land5.png";
-import land6 from "../assets/LoadBalancer/land6.png";
-import land7 from "../assets/LoadBalancer/land7.png";
+import landing from "../assets/Optimized/landing.webp";
+import land1 from "../assets/Optimized/land1.webp";
+import land2 from "../assets/Optimized/land2.webp";
+import land3 from "../assets/Optimized/land3.webp";
+import land4 from "../assets/Optimized/land4.webp";
+import land5 from "../assets/Optimized/land5.webp";
+import land6 from "../assets/Optimized/land6.webp";
+import land7 from "../assets/Optimized/land7.webp";
 
 
 
@@ -174,10 +174,10 @@ The Azure Load Balancer is configured with the following specifications:<br /><b
 
 
 
-  <img src={land1} alt="config" className="config-img image-edit4  image4-top" />
-  <img src={land2} alt="config" className="config-img image-edit4" />
-  <img src={land3} alt="config" className="config-img image-edit4" />
-  <img src={land4} alt="config" className="config-img image-edit4 image4-bottom" />
+  <img src={land1} alt="config" className="config-img image-edit4  image4-top"   loading="eager" decoding="async" />
+  <img src={land2} alt="config" className="config-img image-edit4"  loading="eager" decoding="async" />
+  <img src={land3} alt="config" className="config-img image-edit4"  loading="eager" decoding="async" />
+  <img src={land4} alt="config" className="config-img image-edit4 image4-bottom"  loading="eager" decoding="async"  />
 <p>
 
 <b>Health Probe Configuration:</b><br /><br />
@@ -242,7 +242,7 @@ Each backend virtual machine is configured identically to ensure consistent beha
 </p>
 <h5>2.4.1 Step-by-Step Data Flow</h5>
 
-   <img src={land5} alt="config" className="config-img" />
+   <img src={land5} alt="config" className="config-img"   loading="eager" decoding="async" />
 
 <h5>2.4.2 Concurrent Request Handling</h5>
 <p>
@@ -315,12 +315,12 @@ Azure provides scalable infrastructure, automated resource management, and advan
 Together, these technologies create a secure, flexible, and high-performance environment for deploying modern load-balanced web applications.
 </p>
 
-    <img src={land6} alt="config" className="config-img" />
+    <img src={land6} alt="config" className="config-img"  loading="eager" decoding="async"  />
 
 <p>
 <b>These metrics indicate a highly responsive, fault-tolerant, and scalable web infrastructure suitable for real-world deployments</b>
 </p>
- <img src={land7} alt="config" className="config-img image4-topbottom" />
+ <img src={land7} alt="config" className="config-img image4-topbottom"  loading="eager" decoding="async"  />
 
 <h5>LIMITATIONS</h5>
 

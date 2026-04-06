@@ -1,41 +1,50 @@
-*{
-  margin:0;
-  padding:0;
-  box-sizing:border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+  /* 🔥 Tap highlight remove (mobile fast feel) */
+  -webkit-tap-highlight-color: transparent;
 }
 
-body{
-  margin:0;
-  font-family: Arial, Helvetica, sans-serif;
-  background:white;
-
-  font-family: 'Poppins', sans-serif;
-}
-
-#root{
-  width:100%;
-}
-
-a{
-  text-decoration:none;
-  color:#666;
-}
-
-a:hover{
-  color:black;
-}
 html {
   scroll-behavior: smooth;
 }
+
 body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background: white;
+
+  /* 🔥 iPhone smooth scroll */
+  -webkit-overflow-scrolling: touch;
+
+  /* 🔥 font smooth */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+
+#root {
+  width: 100%;
+}
+
+a {
+  text-decoration: none;
+  color: #666;
+}
+
+a:hover {
+  color: black;
+}
+
+/* 🔥 MOBILE MESSAGE */
 .mobile-msg {
   position: fixed;
   top: 50px;
   left: 50%;
-  transform: translateX(-50%) translateY(-10px);
+
+  transform: translateX(-50%) translateY(-10px) translateZ(0);
+  will-change: transform;
 
   background: rgba(50, 50, 50, 0.85);
   color: white;
@@ -46,21 +55,22 @@ body {
   font-size: 14px;
   z-index: 9999;
 
-  backdrop-filter: blur(8px);
   box-shadow: 0 8px 25px rgba(0, 0, 0, 0.25);
 
   opacity: 0;
-  animation: fadeSlide 0.5s ease forwards;
+
+  /* 🔥 faster animation */
+  animation: fadeSlide 0.4s ease forwards;
 }
 
-/* 🔥 Animation */
+/* 🔥 Animation (GPU optimized) */
 @keyframes fadeSlide {
   from {
     opacity: 0;
-    transform: translateX(-50%) translateY(-20px);
+    transform: translateX(-50%) translateY(-20px) translateZ(0);
   }
   to {
     opacity: 1;
-    transform: translateX(-50%) translateY(0);
+    transform: translateX(-50%) translateY(0) translateZ(0);
   }
 }

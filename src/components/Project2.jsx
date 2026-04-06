@@ -1,21 +1,21 @@
 import { useState, useEffect } from "react";
 
 
-import landingpage from "../assets/Paris/Landingpage.png";
+import landingpage from "../assets/Optimized/Landingpage.webp";
 
-import mobile from "../assets/Paris/mobile.png";
-import mobile2 from "../assets/Paris/mobile2.png";
-import mobile3 from "../assets/Paris/mobile3.png";
-import mobile4 from "../assets/Paris/mobile4.png";
-import mobile5 from "../assets/Paris/mobile5.png";
-import mobile6 from "../assets/Paris/mobile6.png";
+import mobile from "../assets/Optimized/mobile.webp";
+import mobile2 from "../assets/Optimized/mobile2.webp";
+import mobile3 from "../assets/Optimized/mobile3.webp";
+import mobile4 from "../assets/Optimized/mobile4.webp";
+import mobile5 from "../assets/Optimized/mobile5.webp";
+import mobile6 from "../assets/Optimized/mobile6.webp";
 
-import paris1 from "../assets/Paris/paris1.png";
-import paris2 from "../assets/Paris/paris2.png";
-import paris3 from "../assets/Paris/paris3.png";
-import paris4 from "../assets/Paris/paris4.png";
-import paris5 from "../assets/Paris/paris5.png";
-import paris6 from "../assets/Paris/paris5.png";
+import paris1 from "../assets/Optimized/paris1.webp";
+import paris2 from "../assets/Optimized/paris2.webp";
+import paris3 from "../assets/Optimized/paris3.webp";
+import paris4 from "../assets/Optimized/paris4.webp";
+import paris5 from "../assets/Optimized/paris5.webp";
+import paris6 from "../assets/Optimized/paris5.webp";
 
 import "./Project2.css";
 
@@ -60,7 +60,7 @@ and country-wise comparisons in a clear and intuitive manner.
 <p><li><b>Data Visualization:</b> Interactive charts and graphs for easy understanding of complex data.</li></p>
 <p><li><b>Comprehensive Insights:</b> Covers athletes, teams, and participating countries.</li></p>
 <p><li><b>Responsive Layout:</b> Optimized for seamless performance across mobile, tablet, and desktop devices.</li></p>
-              <img src={mobile2} alt="mobile1" />
+              <img src={mobile2} alt="mobile1"  loading="eager" decoding="async" />
 <p><b>Country Performance Comparison Module:</b></p>
 
 <p>
@@ -76,7 +76,7 @@ dynamic visualizations that update based on user selection, making analysis more
 <p><li><b>Insight Panels:</b> Highlight important metrics for quick understanding.</li></p>
 <p><li><b>Visual Analytics:</b> Interactive graphs enhance comparative analysis.</li></p>
 
-    <img src={mobile3} alt="mobile3" />
+    <img src={mobile3} alt="mobile3"  loading="eager" decoding="async"  />
 <p><b>Interactive Country Comparison Module:</b></p>
 
 <p>
@@ -91,7 +91,7 @@ athlete participation, and overall performance, making the analysis more intuiti
 <p><li><b>Real-Time Updates:</b> Instant refresh of charts and statistics based on selection.</li></p>
 <p><li><b>Insight Highlights:</b> Key information displayed for quick understanding.</li></p>
 <p><li><b>Interactive Visuals:</b> Dynamic charts for better comparison and analysis.</li></p>
-              <img src={mobile4} alt="mobile4" />
+              <img src={mobile4} alt="mobile4"  loading="eager" decoding="async" />
 <p><b>Comprehensive Medal Breakdown and Analysis:</b></p>
 
 <p>
@@ -106,10 +106,10 @@ gain meaningful insights into overall performance.
 <p><li><b>Cross-Country Comparison:</b> Analyze and compare performance across different nations.</li></p>
 <p><li><b>Structured Presentation:</b> Organized layout for improved readability and clarity.</li></p>
 <p><li><b>Visual Insights:</b> Graphical representation for better understanding of data patterns.</li></p>
-              <img src={mobile5} alt="mobile5" />
+              <img src={mobile5} alt="mobile5"  loading="eager" decoding="async"  />
               <p>Country Search implementation for easy navigation and data exploration</p>
 
-              <img src={mobile6} alt="mobile6" />
+              <img src={mobile6} alt="mobile6"  loading="eager" decoding="async"  />
 <p><b>Time-Series Analysis and Historical Insights:</b></p>
 
 <p>
@@ -141,7 +141,7 @@ and country-wise comparisons in a clear and intuitive manner.
 <p><li><b>Data Visualization:</b> Interactive charts and graphs for easy understanding of complex data.</li></p>
 <p><li><b>Comprehensive Insights:</b> Covers athletes, teams, and participating countries.</li></p>
 <p><li><b>Responsive Layout:</b> Optimized for seamless performance across mobile, tablet, and desktop devices.</li></p>
-              <img src={paris1} alt="paris1" />
+              <img src={paris1} alt="paris1"  loading="eager" decoding="async"  />
 <p><b>Country Comparison and Performance Analysis Module:</b></p>
 
 <p>
@@ -158,7 +158,7 @@ and overall performance. The feature is designed to provide structured and meani
 <p><li><b>Quick Insights:</b> Highlight sections provide summarized key information.</li></p>
 <p><li><b>Interactive Visuals:</b> Engaging charts and graphs enhance data understanding.</li>
 </p>    
-              <img src={paris2} alt="paris2" />
+              <img src={paris2} alt="paris2"  loading="eager" decoding="async"  />
 <p><b>Category-Based Filtering and Navigation System:</b></p>
 
 <p>
@@ -172,7 +172,7 @@ It enhances navigation by organizing datasets in a structured manner, enabling u
 <p><li><b>Smooth Navigation:</b> Seamless transition between different categories.</li></p>
 <p><li><b>Focused Analysis:</b> Filters data to display only relevant information.</li></p>
 <p><li><b>User-Friendly Design:</b> Simple and intuitive interface for better usability.</li></p>
-              <img src={paris3} alt="paris3" />
+              <img src={paris3} alt="paris3"  loading="eager" decoding="async" />
 <p><b>In-depth Country Insights:</b></p>
 
 <p>
@@ -185,7 +185,7 @@ This section focuses on delivering detailed and structured insights for individu
 <p><li><b>Medal Visualization:</b> Clear representation of gold, silver, and bronze distribution.</li></p>
 <p><li><b>Performance Analysis:</b> Insights into athlete contributions and achievements.</li></p>
 <p><li><b>Focused View:</b> Selected country data is highlighted for better clarity and comparison.</li></p>
-              <img src={paris4} alt="paris4" />
+              <img src={paris4} alt="paris4"  loading="eager" decoding="async" />
 <p><b>Historical Trends and Time-Based Analysis:</b></p>
 
 <p>
@@ -200,7 +200,7 @@ helping users identify patterns, growth, and fluctuations in country-wise achiev
 <p><li><b>Multi-Year Comparison:</b> Enables comparison of medal performance across different time periods.</li></p>
 <p><li><b>Trend Insights:</b> Helps in identifying performance patterns and long-term progress.</li></p>
 <p><li><b>Interactive Graphs:</b> Responsive and dynamic charts for better data visualization.</li></p>
-              <img src={paris5} alt="paris5" />
+              <img src={paris5} alt="paris5"  loading="eager" decoding="async"  />
 <p><b>Global Map Visualization and Geographic Insights:</b></p>
 
 <p>
@@ -215,7 +215,7 @@ analyze global trends. The map seamlessly integrates with other dashboard compon
 <p><li><b>Country-wise Distribution:</b> Clear visualization of medals across nations.</li></p>
 <p><li><b>Global Insights:</b> Helps identify high-performing regions at a glance.</li></p>
 <p><li><b>Integrated Analytics:</b> Works in sync with other dashboard elements for deeper analysis.</li></p>
-              <img src={paris6} alt="paris5" />
+              <img src={paris6} alt="paris5" loading="eager" decoding="async"  />
 <p><b>Medal Distribution and Comparative Analysis:</b></p>
 
 <p>

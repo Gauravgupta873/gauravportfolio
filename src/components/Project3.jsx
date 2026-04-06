@@ -1,14 +1,14 @@
 import { useState, useEffect } from "react";
 
 
-import blink1 from "../assets/Blinkit/blink1.png";
-import blink2 from "../assets/Blinkit/blink2.png";
-import blink3 from "../assets/Blinkit/blink3.png";
-import blink4 from "../assets/Blinkit/blink4.png";
+import blink1 from "../assets/Optimized/blink1.webp";
+import blink2 from "../assets/Optimized/blink2.webp";
+import blink3 from "../assets/Optimized/blink3.webp";
+import blink4 from "../assets/Optimized/blink4.webp";
 
-import mob1 from "../assets/Blinkit/mob1.png";
-import mob2 from "../assets/Blinkit/mob2.png";
-import mob3 from "../assets/Blinkit/mob3.png";
+import mob1 from "../assets/Optimized/mob1.webp";
+import mob2 from "../assets/Optimized/mob2.webp";
+import mob3 from "../assets/Optimized/mob3.webp";
 
 import "./Project3.css";
 
@@ -72,7 +72,7 @@ The dashboard demonstrates how complex filter interactions allow users to explor
 By selecting and expanding filters, users can perform detailed analysis and gain meaningful insights from the dataset.
 </p>
                 </div>
-              <img src={mob2} alt="mobile2" />
+              <img src={mob2} alt="mobile2"  loading="eager" decoding="async" />
                 <div className="img-text">
 <p><b>Dynamic Dashboard with Navigation Control:</b></p>
 
@@ -104,7 +104,7 @@ The dashboard highlights the importance of interactive navigation in data analys
 Users can explore multiple dimensions of the dataset, making it easier to identify trends, patterns, and performance metrics efficiently.
 </p>
                 </div>
-              <img src={mob3} alt="mobile3" />
+              <img src={mob3} alt="mobile3"  loading="eager" decoding="async"  />
   <div className="img-text">
 <p><b>Performance Analysis and Sales Insights:</b></p>
 
@@ -187,7 +187,7 @@ By selecting and expanding filters, users can perform detailed analysis and gain
 
               {/* -------- IMAGE 2 -------- */}
               <div className="img-block">
-                <img src={blink3} alt="blink3" />
+                <img src={blink3} alt="blink3"  loading="eager" decoding="async" />
 
                 <div className="img-text">
 <p><b>Dynamic Dashboard with Navigation Control:</b></p>
@@ -224,7 +224,7 @@ Users can explore multiple dimensions of the dataset, making it easier to identi
 
               {/* -------- IMAGE 3 -------- */}
               <div className="img-block">
-                <img src={blink4} alt="blink4" />
+                <img src={blink4} alt="blink4"  loading="eager" decoding="async" />
 
                 <div className="img-text">
 <p><b>Performance Analysis and Sales Insights:</b></p>

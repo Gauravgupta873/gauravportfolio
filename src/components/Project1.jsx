@@ -1,25 +1,25 @@
 import { useState, useEffect } from "react";
 
 
-import mobile from "../assets/Banking/mobile.png";
-import mobile1 from "../assets/Banking/mobile1.png";
-import mobile2 from "../assets/Banking/mobile2.png";
-import mobile3 from "../assets/Banking/mobile3.png";
-import mobile4 from "../assets/Banking/mobile4.png";
-import mobile5 from "../assets/Banking/mobile5.png";
-import mobile6 from "../assets/Banking/mobile6.png";
-import mobile7 from "../assets/Banking/mobile7.png";
+import mobile from "../assets/Optimized/mobile.webp";
+import mobile1 from "../assets/Optimized/mobile1.webp";
+import mobile2 from "../assets/Optimized/mobile2.webp";
+import mobile3 from "../assets/Optimized/mobile3.webp";
+import mobile4 from "../assets/Optimized/mobile4.webp";
+import mobile5 from "../assets/Optimized/mobile5.webp";
+import mobile6 from "../assets/Optimized/mobile6.webp";
+import mobile7 from "../assets/Optimized/mobile7.webp";
 
-import bank1 from "../assets/Banking/bank1.png";
-import bank2 from "../assets/Banking/bank2.png";
-import bank3 from "../assets/Banking/bank3.png";
-import bank5 from "../assets/Banking/bank5.png";
-import bank6 from "../assets/Banking/bank6.png";
-import bank7 from "../assets/Banking/bank7.png";
-import bank8 from "../assets/Banking/bank8.png";
-import bank9 from "../assets/Banking/bank9.png";
-import bank10 from "../assets/Banking/bank10.png";
-import bank11 from "../assets/Banking/bank11.png";
+import bank1 from "../assets/Optimized/bank1.webp";
+import bank2 from "../assets/Optimized/bank2.webp";
+import bank3 from "../assets/Optimized/bank3.webp";
+import bank5 from "../assets/Optimized/bank5.webp";
+import bank6 from "../assets/Optimized/bank6.webp";
+import bank7 from "../assets/Optimized/bank7.webp";
+import bank8 from "../assets/Optimized/bank8.webp";
+import bank9 from "../assets/Optimized/bank9.webp";
+import bank10 from "../assets/Optimized/bank10.webp";
+import bank11 from "../assets/Optimized/bank11.webp";
 
 import "./Project1.css";
 
@@ -41,7 +41,7 @@ function Project1() {
 
         {isMobile ? (
           <>
-            <img className="p1-img" src={mobile} loading="lazy"/>
+            <img className="p1-img" src={mobile}  loading="eager" decoding="async" />
 
             <p className="p1-text">
               <p>
@@ -62,7 +62,7 @@ A clean UI combined with proper spacing and typography improves readability and 
   <li><b>Fully responsive design</b> across all devices</li>
 </ul>
     </p>
-            <img className="p1-img" src={mobile1} />
+            <img className="p1-img" src={mobile1}  loading="eager" decoding="async" />
 
             <p className="p1-text">
 
@@ -86,7 +86,7 @@ Security measures such as <b>encrypted data handling and verification</b> enhanc
             </p>
 
 
-            <img className="p1-img" src={mobile2} />
+            <img className="p1-img" src={mobile2}  loading="eager" decoding="async"  />
 
       
             <p className="p1-text">
@@ -108,11 +108,11 @@ and clearly. The layout ensures <b>smooth navigation</b> and reduces user effort
   <li><b>Organized layout</b> for better usability</li>
 </ul>
             </p>
-            <img className="p1-img" src={mobile3} />
+            <img className="p1-img" src={mobile3}   loading="eager" decoding="async" />
       <p className="p1-text">
               Developed an intuitive dashboard that provides users with a quick overview of their financial activities.
             </p>
-            <img className="p1-img" src={mobile4} />
+            <img className="p1-img" src={mobile4}  loading="eager" decoding="async"  />
                   <p className="p1-text">
             <p>
 <b>Smooth Account Onboarding Process:</b><br/><br/>
@@ -132,7 +132,7 @@ user effort and improve overall usability.
 </ul>
 </p>
          
-            <img className="p1-img" src={mobile5} />
+            <img className="p1-img" src={mobile5}  loading="eager" decoding="async"  />
 
             <p className="p1-text">
 <p>
@@ -152,7 +152,7 @@ Users can select recipients, enter details, and complete transactions with <b>mi
   <li><b>Smooth and user-friendly flow</b></li>
 </ul>
  </p>
-            <img className="p1-img" src={mobile6} />
+            <img className="p1-img" src={mobile6}  loading="eager" decoding="async" />
 
    <p className="p1-text">
 <p>
@@ -172,7 +172,7 @@ The interface allows users to track their financial activities with ease by prov
   <li><b>Structured table layout</b> for readability</li>
 </ul>
 </p>    
-            <img className="p1-img" src={mobile7} />
+            <img className="p1-img" src={mobile7}  loading="eager" decoding="async"  />
 
             <p className="p1-text">
 <p>
@@ -196,7 +196,7 @@ A properly structured form ensures a <b>smooth and seamless user experience</b>.
        </>
         ) : (
           <>
-            <img className="p1-img" src={bank1}  loading="lazy" />
+            <img className="p1-img" src={bank1}   loading="eager" decoding="async" />
 
             <p className="p1-text">
  <p>
@@ -218,7 +218,7 @@ A clean UI combined with proper spacing and typography improves readability and 
 </ul>           
    </p>
 
-            <img className="p1-img" src={bank2} />
+            <img className="p1-img" src={bank2}  loading="eager" decoding="async" />
 
             <p className="p1-text">
 <p>
@@ -242,7 +242,7 @@ Security measures such as <b>encrypted data handling and verification</b> enhanc
 
             </p>
 
-            <img className="p1-img" src={bank3} />
+            <img className="p1-img" src={bank3}  loading="eager" decoding="async" />
 
             <p className="p1-text">
 <p>
@@ -264,7 +264,7 @@ and clearly. The layout ensures <b>smooth navigation</b> and reduces user effort
 </ul>
             </p>
 
-            <img className="p1-img" src={bank5} />
+            <img className="p1-img" src={bank5}  loading="eager" decoding="async"  />
  <p className="p1-text">
 <p>
 <b>Transaction History & Analysis Module:</b><br/><br/>
@@ -283,7 +283,7 @@ The interface allows users to track their financial activities with ease by prov
   <li><b>Structured table layout</b> for readability</li>
 </ul>
 </p>
-            <img className="p1-img" src={bank6} />
+            <img className="p1-img" src={bank6}  loading="eager" decoding="async" />
 
             <p className="p1-text">
  <p>
@@ -304,7 +304,7 @@ Users can select recipients, enter details, and complete transactions with <b>mi
 </ul>
             </p>
 
-            <img className="p1-img" src={bank7} />
+            <img className="p1-img" src={bank7}  loading="eager" decoding="async"  />
 
             <p className="p1-text">
 <p>
@@ -326,7 +326,7 @@ A properly structured form ensures a <b>smooth and seamless user experience</b>.
        
            </p>
 
-            <img className="p1-img" src={bank8} />
+            <img className="p1-img" src={bank8}  loading="eager" decoding="async" />
 
             <p className="p1-text">
               <p>
@@ -347,7 +347,7 @@ secure access to <b>sensitive data</b>.
 </ul>
      </p>
 
-            <img className="p1-img" src={bank9} />
+            <img className="p1-img" src={bank9}  loading="eager" decoding="async" />
 
             <p className="p1-text">
 <p>
@@ -368,7 +368,7 @@ settings according to their individual needs, enhancing usability and flexibilit
 </ul>
             </p>
 
-            <img className="p1-img" src={bank10} />
+            <img className="p1-img" src={bank10}  loading="eager" decoding="async"  />
 
             <p className="p1-text">
 <p>
@@ -388,7 +388,7 @@ settings according to their individual needs, resulting in a more flexible and u
   <li><b>Simple and intuitive UI</b></li>
 </ul>         </p>
 
-            <img className="p1-img" src={bank11} />
+            <img className="p1-img" src={bank11}  loading="eager" decoding="async"  />
 
             <p className="p1-text">
 <p>

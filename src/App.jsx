@@ -1,6 +1,6 @@
 import { Routes, Route, useLocation } from "react-router-dom";
 import { motion, AnimatePresence } from "framer-motion";
-import { useState, useEffect } from "react"; // ✅ ADD
+import { useState, useEffect } from "react";
 
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
@@ -23,7 +23,6 @@ import Footer from "./components/Footer";
 function App() {
   const location = useLocation();
 
-  // ✅ MOBILE MESSAGE LOGIC
   const [showMessage, setShowMessage] = useState(false);
 
   useEffect(() => {
@@ -38,19 +37,31 @@ function App() {
     }
   }, []);
 
+  // ✅ AUTO PRELOAD ALL IMAGES
+  useEffect(() => {
+    const images = import.meta.glob("./assets/Optimized/*.webp", {
+      eager: true,
+    });
+
+    Object.values(images).forEach((imgModule) => {
+      const img = new Image();
+      img.src = imgModule.default;
+    });
+  }, []);
+
   return (
     <>
       <ScrollToTop />
       <Navbar />
 
-      {/* ✅ MESSAGE SHOW */}
       {showMessage && (
         <div className="mobile-msg">
-         👉 Desktop recommended 💻
+          👉 Desktop recommended 💻
         </div>
       )}
 
-      <AnimatePresence mode="wait">
+      {/* ✅ CHANGE: wait → sync */}
+      <AnimatePresence mode="sync">
         <Routes location={location} key={location.pathname}>
 
           {/* HOME */}
@@ -58,10 +69,10 @@ function App() {
             path="/"
             element={
               <motion.div
-                initial={{ opacity: 0, y: 30 }}
-                animate={{ opacity: 1, y: 0 }}
-                exit={{ opacity: 0, y: -30 }}
-                transition={{ duration: 0.4 }}
+                initial={{ opacity: 0, transform: "translateY(30px)" }}
+                animate={{ opacity: 1, transform: "translateY(0px)" }}
+                exit={{ opacity: 0, transform: "translateY(-30px)" }}
+                transition={{ duration: 0.2 }}
               >
                 <Hero />
                 <Skills />
@@ -75,9 +86,9 @@ function App() {
             path="/experience"
             element={
               <motion.div
-                initial={{ opacity: 0, y: 30 }}
-                animate={{ opacity: 1, y: 0 }}
-                exit={{ opacity: 0, y: -30 }}
+                initial={{ opacity: 0, transform: "translateY(30px)" }}
+                animate={{ opacity: 1, transform: "translateY(0px)" }}
+                exit={{ opacity: 0, transform: "translateY(-30px)" }}
                 transition={{ duration: 0.2, ease: [0.25, 0.1, 0.25, 1] }}
               >
                 <Experience />
@@ -86,15 +97,15 @@ function App() {
           />
 
           {/* PROJECT PAGES */}
-          <Route path="/project1" element={<motion.div initial={{ opacity: 0, y: 30 }} animate={{ opacity: 1, y: 0 }} exit={{ opacity: 0, y: -30 }} transition={{ duration: 0.4 }}><Project1 /></motion.div>} />
-          <Route path="/project2" element={<motion.div initial={{ opacity: 0, y: 30 }} animate={{ opacity: 1, y: 0 }} exit={{ opacity: 0, y: -30 }} transition={{ duration: 0.4 }}><Project2 /></motion.div>} />
-          <Route path="/project3" element={<motion.div initial={{ opacity: 0, y: 30 }} animate={{ opacity: 1, y: 0 }} exit={{ opacity: 0, y: -30 }} transition={{ duration: 0.4 }}><Project3 /></motion.div>} />
-          <Route path="/project4" element={<motion.div initial={{ opacity: 0, y: 30 }} animate={{ opacity: 1, y: 0 }} exit={{ opacity: 0, y: -30 }} transition={{ duration: 0.4 }}><Project4 /></motion.div>} />
-          <Route path="/project5" element={<motion.div initial={{ opacity: 0, y: 30 }} animate={{ opacity: 1, y: 0 }} exit={{ opacity: 0, y: -30 }} transition={{ duration: 0.4 }}><Project5 /></motion.div>} />
-          <Route path="/project6" element={<motion.div initial={{ opacity: 0, y: 30 }} animate={{ opacity: 1, y: 0 }} exit={{ opacity: 0, y: -30 }} transition={{ duration: 0.4 }}><Project6 /></motion.div>} />
+          <Route path="/project1" element={<motion.div initial={{ opacity: 0, transform: "translateY(30px)" }} animate={{ opacity: 1, transform: "translateY(0px)" }} exit={{ opacity: 0, transform: "translateY(-30px)" }} transition={{ duration: 0.2 }}><Project1 /></motion.div>} />
+          <Route path="/project2" element={<motion.div initial={{ opacity: 0, transform: "translateY(30px)" }} animate={{ opacity: 1, transform: "translateY(0px)" }} exit={{ opacity: 0, transform: "translateY(-30px)" }} transition={{ duration: 0.2 }}><Project2 /></motion.div>} />
+          <Route path="/project3" element={<motion.div initial={{ opacity: 0, transform: "translateY(30px)" }} animate={{ opacity: 1, transform: "translateY(0px)" }} exit={{ opacity: 0, transform: "translateY(-30px)" }} transition={{ duration: 0.2 }}><Project3 /></motion.div>} />
+          <Route path="/project4" element={<motion.div initial={{ opacity: 0, transform: "translateY(30px)" }} animate={{ opacity: 1, transform: "translateY(0px)" }} exit={{ opacity: 0, transform: "translateY(-30px)" }} transition={{ duration: 0.2 }}><Project4 /></motion.div>} />
+          <Route path="/project5" element={<motion.div initial={{ opacity: 0, transform: "translateY(30px)" }} animate={{ opacity: 1, transform: "translateY(0px)" }} exit={{ opacity: 0, transform: "translateY(-30px)" }} transition={{ duration: 0.2 }}><Project5 /></motion.div>} />
+          <Route path="/project6" element={<motion.div initial={{ opacity: 0, transform: "translateY(30px)" }} animate={{ opacity: 1, transform: "translateY(0px)" }} exit={{ opacity: 0, transform: "translateY(-30px)" }} transition={{ duration: 0.2 }}><Project6 /></motion.div>} />
 
           {/* ALL PROJECT */}
-          <Route path="/allprojects" element={<motion.div initial={{ opacity: 0, y: 30 }} animate={{ opacity: 1, y: 0 }} exit={{ opacity: 0, y: -30 }} transition={{ duration: 0.4 }}><Allproject /></motion.div>} />
+          <Route path="/allprojects" element={<motion.div initial={{ opacity: 0, transform: "translateY(30px)" }} animate={{ opacity: 1, transform: "translateY(0px)" }} exit={{ opacity: 0, transform: "translateY(-30px)" }} transition={{ duration: 0.2 }}><Allproject /></motion.div>} />
 
         </Routes>
       </AnimatePresence>

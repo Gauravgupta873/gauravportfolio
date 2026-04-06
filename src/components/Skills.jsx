@@ -53,7 +53,7 @@ const Skills = () => {
           <div className="card-front">
             <FaTools className="card-icon"/>
             <h3>Developer Tools</h3>
-            <p>Git, GitHub, VS Code, Jupyter Notebook...</p>
+            <p>Git, GitHub, VS Code, Jupyter Notebook....</p>
           </div>
           <div className="card-back">
             <p>
@@ -69,7 +69,7 @@ Familiar with WEKA, Cloud-based development workflows...
           <div className="card-front">
             <FaDatabase  className="card-icon"/>
             <h3>Database</h3>
-            <p>MongoDB, MySQL, Supabase, Firebase...</p>
+            <p>MongoDB, MySQL, Supabase, Firebase....</p>
           </div>
           <div className="card-back">
             <p>
@@ -85,7 +85,7 @@ Optimizing queries and ensuring scalable backend performance...
           <div className="card-front">
             <FaCode className="card-icon"/>
             <h3>Machine Learning & AI</h3>
-            <p>LSTM, Scikit-learn, Data Modeling, Prediction Systems...</p>
+            <p>LSTM, Scikit-learn, Data Modeling, Prediction Systems....</p>
           </div>
           <div className="card-back">
             <p>
@@ -101,7 +101,7 @@ Transforming data into intelligent forecasting and analytical systems...
           <div className="card-front">
             <FaUser className="card-icon card-icon4"/>
             <h3>Core Computer Science Concepts</h3>
-            <p>Data Structure & Algorithms, Object-Oriented Programming...</p>
+            <p>Data Structure & Algorithms, Object-Oriented Programming....</p>
           </div>
           <div className="card-back">
             <p>

@@ -2,12 +2,12 @@ import React from "react";
 import "./Allproject.css";
 
 
-import banking from "../assets/banking.png";
-import LoadBalancer from "../assets/load3.png";
-import olympics from "../assets/olympics.png";
-import blinkit from "../assets/blinkit.png";
-import voting from "../assets/Voting.png";
-import stock from "../assets/Stock1.png";
+import banking from "../assets/Optimized/banking.webp";
+import LoadBalancer from "../assets/Optimized/load3.webp";
+import olympics from "../assets/Optimized/olympics.webp";
+import blinkit from "../assets/Optimized/blinkit.webp";
+import voting from "../assets/Optimized/Voting.webp";
+import stock from "../assets/Optimized/Stock1.webp";
 
 import { useNavigate } from "react-router-dom";
 
@@ -33,7 +33,7 @@ function Allproject() {
         {/* CARD 4 */}
         <div className="ap-card ap-bg-4" onClick={goToProject3}>
           <div className="ap-img-box">
-            <img src={blinkit} alt="project4" className="ap-img" />
+            <img src={blinkit} alt="project4" className="ap-img"   loading="eager" decoding="async" />
           </div>
           <div className="ap-content">
             <p className="ap-type ap-type-4">Case Study</p>
@@ -46,7 +46,7 @@ function Allproject() {
              {/* CARD 6 */}  
         <div className="ap-card ap-bg-6" onClick={goToProject6}>
           <div className="ap-img-box">
-            <img src={stock} alt="project6" className="ap-img" />
+            <img src={stock} alt="project6" className="ap-img" loading="eager" decoding="async"  />
           </div>
           <div className="ap-content">
             <p className="ap-type ap-type-6">Case Study</p>
@@ -59,7 +59,7 @@ function Allproject() {
         {/* CARD 2 */}
         <div className="ap-card ap-bg-2" onClick={goToProject4}>
           <div className="ap-img-box">
-            <img src={LoadBalancer} alt="project2" className="ap-img" />
+            <img src={LoadBalancer} alt="project2" className="ap-img"  loading="eager" decoding="async" />
           </div>
           <div className="ap-content">
             <p className="ap-type ap-type-2">Frontend</p>
@@ -70,7 +70,7 @@ function Allproject() {
         {/* CARD 5 */}
         <div className="ap-card ap-bg-5" onClick={goToProject5}>
           <div className="ap-img-box">
-            <img src={voting} alt="project3" className="ap-img" />
+            <img src={voting} alt="project3" className="ap-img"  loading="eager" decoding="async" />
           </div>
           <div className="ap-content">
             <p className="ap-type ap-type-5">UI Design</p>
@@ -82,7 +82,7 @@ function Allproject() {
      {/* CARD 1 */}
         <div className="ap-card ap-bg-1" onClick={goToProject1}>
           <div className="ap-img-box">
-            <img src={banking} alt="project1" className="ap-img" />
+            <img src={banking} alt="project1" className="ap-img"  loading="eager" decoding="async"  />
           </div>
           <div className="ap-content">
             <p className="ap-type ap-type-1">Full Stack</p>
@@ -92,7 +92,7 @@ function Allproject() {
         {/* CARD 3 */}
         <div className="ap-card ap-bg-3" onClick={goToProject2}>
           <div className="ap-img-box">
-            <img src={olympics} alt="project3" className="ap-img" />
+            <img src={olympics} alt="project3" className="ap-img"  loading="eager" decoding="async" />
           </div>
           <div className="ap-content">
             <p className="ap-type ap-type-3">UI Design</p>

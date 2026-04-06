@@ -1,12 +1,12 @@
 
 
-import voting from "../assets/Voting/voting1.png";
-import vote2 from "../assets/Voting/vote2.jpeg";
-import vote3 from "../assets/Voting/vote3.jpeg";
-import vote4 from "../assets/Voting/vote4.png";
-import vote5 from "../assets/Voting/vote5.jpeg";
-import vote6 from "../assets/Voting/vote6.png";
-import vote7 from "../assets/Voting/vote7.png";
+import voting from "../assets/optimized/voting1.webp";
+import vote2 from "../assets/Optimized/vote2.webp";
+import vote3 from "../assets/Optimized/vote3.webp";
+import vote4 from "../assets/Optimized/vote4.webp";
+import vote5 from "../assets/Optimized/vote5.webp";
+import vote6 from "../assets/Optimized/vote6.webp";
+import vote7 from "../assets/Optimized/vote7.webp";
 
 
 
@@ -145,7 +145,7 @@ To design, develop, and test a robust, concurrent, and user-friendly online voti
 <p>
   This table stores all voter-related information and is crucial for authentication and preventing duplicate votes.
 </p>
-    <img src={vote2} alt="configure" className="configure1-img  " />
+    <img src={vote2} alt="configure" className="configure1-img  "  loading="eager" decoding="async"  />
 
 <p><b>3.2 Core Module: Server (Server.py)</b></p>
 <p>
@@ -329,12 +329,12 @@ try:<br />
   - The system is vulnerable to replay attacks. A session token mechanism could be added.
 </p>
 
-  <img src={vote3} alt="configure" className="configure-img  " />
-  <img src={vote4} alt="configure" className="configure-img " />
+  <img src={vote3} alt="configure" className="configure-img  "  loading="eager" decoding="async"  />
+  <img src={vote4} alt="configure" className="configure-img "  loading="eager" decoding="async"  />
 
-  <img src={vote5} alt="configure" className="configure-img" />
-    <img src={vote6} alt="configure" className="configure-img  " />
-    <img src={vote7} alt="configure" className="configure-img  last-image" />
+  <img src={vote5} alt="configure" className="configure-img"  loading="eager" decoding="async"  />
+    <img src={vote6} alt="configure" className="configure-img  "  loading="eager" decoding="async"  />
+    <img src={vote7} alt="configure" className="configure-img  last-image"   loading="eager" decoding="async" />
 
 <p><b>7) Future Enhancements</b></p>
 <p>

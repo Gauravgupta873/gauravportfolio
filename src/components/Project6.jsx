@@ -1,8 +1,8 @@
 
 
-import stock1 from "../assets/Stock/stock1.png";
-import stock2 from "../assets/Stock/stock2.png";
-import stock4 from "../assets/Stock/stock4.jpeg";
+import stock1 from "../assets/Optimized/stock1.webp";
+import stock2 from "../assets/Optimized/stock2.webp";
+import stock4 from "../assets/Optimized/stock4.webp";
 
 import "./Project6.css";
 
@@ -77,8 +77,8 @@ function Project6() {
               These steps improve model accuracy and performance.
             </p>
 
-  <img src={stock2} alt="configure" className="configuree6-img configure66 " />
-  <img src={stock4} alt="configure" className="configuree6-img configure666 " />
+  <img src={stock2} alt="configure" className="configuree6-img configure66 "  loading="eager" decoding="async"  />
+  <img src={stock4} alt="configure" className="configuree6-img configure666 "  loading="eager" decoding="async"  />
 
 <p><b>6. MODEL IMPLEMENTATION (LSTM)</b></p>
 

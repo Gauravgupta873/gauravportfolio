@@ -1,18 +1,18 @@
 import "./Projects.css"
 
 
-import stock1 from "../assets/Stock1.png"
+import stock1 from "../assets/Optimized/stockmarket.webp"
 
-import Load2 from "../assets/load2.png"
-import banking from "../assets/banking.png"
+import Load2 from "../assets/Optimized/load2.webp"
+import banking from "../assets/Optimized/banking.webp"
 
-import olympics from "../assets/olympics.png"
+import olympics from "../assets/Optimized/olympics.webp"
 
-import certi from "../assets/certi.jpg"
+import certi from "../assets/Optimized/certi.webp"
 
 import video2 from "../assets/2.mp4"
 
-import  voting from "../assets/Voting.png"
+import  voting from "../assets/Optimized/Voting.webp"
 
 
 import { Link, useNavigate } from "react-router-dom";
@@ -42,7 +42,7 @@ const navigate = useNavigate();
               </span>
             </div>
 
-            <img src={banking} alt="banking" className="project-image"/>
+            <img src={banking} alt="banking" className="project-image"  loading="eager" decoding="async" />
 
           </div>
         </Link>
@@ -62,7 +62,7 @@ const navigate = useNavigate();
               </span>
             </div>
 
-            <img src={Load2} alt="LoadBalancer" className="project-image"/>
+            <img src={Load2} alt="LoadBalancer" className="project-image"  loading="eager" decoding="async" />
 
           </div>
         </Link>
@@ -83,7 +83,7 @@ const navigate = useNavigate();
               </span>
             </div>
 
-            <img src={voting} alt="blinkit" className="project-image"/>
+            <img src={voting} alt="blinkit" className="project-image"  loading="eager" decoding="async" />
 
           </div>
         </Link>
@@ -104,7 +104,7 @@ const navigate = useNavigate();
               </span>
             </div>
 
-            <img src={olympics} alt="olympics" className="project-image"/>
+            <img src={olympics} alt="olympics" className="project-image"  loading="eager" decoding="async" />
 
           </div>
         </Link>
@@ -147,7 +147,7 @@ const navigate = useNavigate();
               </span>
             </div>
 
-            <img src={stock1} alt="blinkit" className="project-image"/>
+            <img src={stock1} alt="blinkit" className="project-image"  loading="eager" decoding="async" />
 
           </div>
         </Link>
@@ -189,7 +189,7 @@ const navigate = useNavigate();
 
  <div className="img1-wrapper">
 
-  <img src={certi} alt="extra1" className="img1"/>
+  <img src={certi} alt="extra1" className="img1"  loading="eager" decoding="async" />
 
   <div className="img1-top-text">
   <h2>Certifications</h2>

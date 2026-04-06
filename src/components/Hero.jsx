@@ -1,6 +1,6 @@
 import "./Hero.css"
 
-import profile1 from "../assets/profile.png"
+import profile1 from "../assets/Optimized/profile.webp"
 
 import { FaEnvelope, FaGithub, FaLinkedin, FaTwitter, FaInstagram } from "react-icons/fa"
 
@@ -11,7 +11,7 @@ function Hero() {
       <div className="hero-container">
 
         <div className="hero-image">
-          <img src={profile1} alt="profile"/>
+          <img src={profile1} alt="profile"  loading="eager" decoding="async" />
         </div>
 
         <div className="hero-text">
