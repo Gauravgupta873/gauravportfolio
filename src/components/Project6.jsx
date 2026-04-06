@@ -5,7 +5,8 @@ import stock2 from "../assets/Optimized/stock2.webp";
 import stock4 from "../assets/Optimized/stock4.webp";
 
 import "./Project6.css";
-
+// add this temporary comment
+// fix deploy
 function Project6() {
   return (
     <>
