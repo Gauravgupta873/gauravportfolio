@@ -1,5 +1,4 @@
 import "./Navbar.css";
-import resume from "../assets/Resume-GG-SE.pdf";
 import { Link, useLocation } from "react-router-dom";
 import { useState } from "react";
 
@@ -16,7 +15,7 @@ function Navbar() {
           Gaurav Gupta
         </div>
 
-        {/* 🔥 HAMBURGER (ANIMATED) */}
+        {/* HAMBURGER */}
         <div
           className={`hamburger ${menuOpen ? "open" : ""}`}
           onClick={() => setMenuOpen(!menuOpen)}
@@ -26,7 +25,7 @@ function Navbar() {
           <span></span>
         </div>
 
-        {/* 🔥 MENU */}
+        {/* MENU */}
         <ul className={`nav-menu ${menuOpen ? "active" : ""}`}>
 
           {/* ABOUT */}
@@ -43,10 +42,10 @@ function Navbar() {
             )}
           </li>
 
-          {/* RESUME */}
+          {/* RESUME ✅ FIXED */}
           <li onClick={() => setMenuOpen(false)}>
             <a
-              href={resume}
+              href="/Resume-GG-SE.pdf"
               target="_blank"
               rel="noopener noreferrer"
             >

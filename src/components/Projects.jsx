@@ -10,7 +10,7 @@ import olympics from "../assets/Optimized/olympics.webp"
 
 import certi from "../assets/Optimized/certi.webp"
 
-import video2 from "../assets/2.mp4"
+
 
 import  voting from "../assets/Optimized/voting.webp"
 
@@ -161,32 +161,30 @@ const navigate = useNavigate();
       {/* 🔥 NEW SECTION (PROJECTS KE LAST ME) */}
 <div className="projects-bottom-images">
 
-  <div className="img2-wrapper">
+<div className="img2-wrapper">
 
-    {/* 🔥 LINK INSIDE */}
-    <Link to="/allprojects">
+  <Link to="/allprojects">
 
-      <video
-        src={video2}
-        autoPlay
-        muted
-        loop
-        playsInline
-        className="img2"
-      />
+    <video
+      src="/2.mp4"
+      autoPlay
+      muted
+      loop
+      playsInline
+      className="img2"
+    />
 
-      <div className="img-top-text">
-        Like these projects?
-      </div>
+    <div className="img-top-text">
+      Like these projects?
+    </div>
 
-      <div className="img-overlay-text">
-        There's more to explore!
-      </div>
+    <div className="img-overlay-text">
+      There's more to explore!
+    </div>
 
-    </Link>
+  </Link>
 
-  </div>
-
+</div>
  <div className="img1-wrapper">
 
   <img src={certi} alt="extra1" className="img1"  loading="eager" decoding="async" />
