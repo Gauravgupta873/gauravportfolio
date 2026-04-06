@@ -16,7 +16,7 @@ import paris2 from "../assets/Optimized/paris2.webp";
 import paris3 from "../assets/Optimized/paris3.webp";
 import paris4 from "../assets/Optimized/paris4.webp";
 import paris5 from "../assets/Optimized/paris5.webp";
-import paris6 from "../assets/Optimized/paris5.webp";
+import paris6 from "../assets/Optimized/paris6.webp";
 
 import "./Project2.css";
 

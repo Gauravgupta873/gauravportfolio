@@ -1,14 +1,14 @@
 import { useState, useEffect } from "react";
 
 
-import mobile from "../assets/Optimized/mobile.webp";
-import mobile1 from "../assets/Optimized/mobile1.webp";
-import mobile2 from "../assets/Optimized/mobile2.webp";
-import mobile3 from "../assets/Optimized/mobile3.webp";
-import mobile4 from "../assets/Optimized/mobile4.webp";
-import mobile5 from "../assets/Optimized/mobile5.webp";
-import mobile6 from "../assets/Optimized/mobile6.webp";
-import mobile7 from "../assets/Optimized/mobile7.webp";
+import mobile from "../assets/Optimized/mob-bank1.webp";
+import mobile1 from "../assets/Optimized/mob-bank2.webp";
+import mobile2 from "../assets/Optimized/mob-bank3.webp";
+import mobile3 from "../assets/Optimized/mob-bank4.webp";
+import mobile4 from "../assets/Optimized/mob-bank5.webp";
+import mobile5 from "../assets/Optimized/mob-bank6.webp";
+import mobile6 from "../assets/Optimized/mob-bank7.webp";
+import mobile7 from "../assets/Optimized/mob-bank8.webp";
 
 import bank1 from "../assets/Optimized/bank1.webp";
 import bank2 from "../assets/Optimized/bank2.webp";

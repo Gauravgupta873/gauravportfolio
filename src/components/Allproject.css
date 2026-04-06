@@ -133,7 +133,7 @@
 @media (max-width: 600px){
 
   .ap-container {
-    padding: 15px 15px;   /* ✅ proper mobile spacing */
+    padding: 80px 15px;   /* ✅ proper mobile spacing */
   }
 
   .ap-title {
