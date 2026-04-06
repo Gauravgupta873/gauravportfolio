@@ -6,8 +6,8 @@ import banking from "../assets/Optimized/banking.webp";
 import LoadBalancer from "../assets/Optimized/load3.webp";
 import olympics from "../assets/Optimized/olympics.webp";
 import blinkit from "../assets/Optimized/blinkit.webp";
-import voting from "../assets/Optimized/Voting.webp";
-import stock from "../assets/Optimized/Stock1.webp";
+import voting from "../assets/Optimized/voting.webp";
+import stock from "../assets/Optimized/stock1.webp";
 
 import { useNavigate } from "react-router-dom";
 

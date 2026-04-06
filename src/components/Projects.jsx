@@ -12,7 +12,7 @@ import certi from "../assets/Optimized/certi.webp"
 
 import video2 from "../assets/2.mp4"
 
-import  voting from "../assets/Optimized/Voting.webp"
+import  voting from "../assets/Optimized/voting.webp"
 
 
 import { Link, useNavigate } from "react-router-dom";

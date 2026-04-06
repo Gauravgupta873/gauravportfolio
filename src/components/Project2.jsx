@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 
 
-import landingpage from "../assets/Optimized/Landingpage.webp";
+import landingpage from "../assets/Optimized/landingpage.webp";
 
 import mobile from "../assets/Optimized/mobile.webp";
 import mobile2 from "../assets/Optimized/mobile2.webp";
