@@ -1,14 +1,14 @@
 import "./Projects.css"
 
 
-import stock1 from "../assets/Optimized/stockmarket.webp"
+import stock1 from "../assets/optimized/stockmarket.webp"
 
-import Load2 from "../assets/Optimized/load2.webp"
-import banking from "../assets/Optimized/banking.webp"
+import Load2 from "../assets/optimized/load2.webp"
+import banking from "../assets/optimized/banking.webp"
 
-import olympics from "../assets/Optimized/olympics.webp"
+import olympics from "../assets/optimized/olympics.webp"
 
-import certi from "../assets/Optimized/certi.webp"
+import certi from "../assets/optimized/certi.webp"
 
 
 

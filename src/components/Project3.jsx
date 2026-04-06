@@ -1,14 +1,14 @@
 import { useState, useEffect } from "react";
 
 
-import blink1 from "../assets/Optimized/blink1.webp";
-import blink2 from "../assets/Optimized/blink2.webp";
-import blink3 from "../assets/Optimized/blink3.webp";
-import blink4 from "../assets/Optimized/blink4.webp";
+import blink1 from "../assets/optimized/blink1.webp";
+import blink2 from "../assets/optimized/blink2.webp";
+import blink3 from "../assets/optimized/blink3.webp";
+import blink4 from "../assets/optimized/blink4.webp";
 
-import mob1 from "../assets/Optimized/mob1.webp";
-import mob2 from "../assets/Optimized/mob2.webp";
-import mob3 from "../assets/Optimized/mob3.webp";
+import mob1 from "../assets/optimized/mob1.webp";
+import mob2 from "../assets/optimized/mob2.webp";
+import mob3 from "../assets/optimized/mob3.webp";
 
 import "./Project3.css";
 

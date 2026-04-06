@@ -1,25 +1,25 @@
 import { useState, useEffect } from "react";
 
 
-import mobile from "../assets/Optimized/mob-bank1.webp";
-import mobile1 from "../assets/Optimized/mob-bank2.webp";
-import mobile2 from "../assets/Optimized/mob-bank3.webp";
-import mobile3 from "../assets/Optimized/mob-bank4.webp";
-import mobile4 from "../assets/Optimized/mob-bank5.webp";
-import mobile5 from "../assets/Optimized/mob-bank6.webp";
-import mobile6 from "../assets/Optimized/mob-bank7.webp";
-import mobile7 from "../assets/Optimized/mob-bank8.webp";
+import mobile from "../assets/optimized/mob-bank1.webp";
+import mobile1 from "../assets/optimized/mob-bank2.webp";
+import mobile2 from "../assets/optimized/mob-bank3.webp";
+import mobile3 from "../assets/optimized/mob-bank4.webp";
+import mobile4 from "../assets/optimized/mob-bank5.webp";
+import mobile5 from "../assets/optimized/mob-bank6.webp";
+import mobile6 from "../assets/optimized/mob-bank7.webp";
+import mobile7 from "../assets/optimized/mob-bank8.webp";
 
-import bank1 from "../assets/Optimized/bank1.webp";
-import bank2 from "../assets/Optimized/bank2.webp";
-import bank3 from "../assets/Optimized/bank3.webp";
-import bank5 from "../assets/Optimized/bank5.webp";
-import bank6 from "../assets/Optimized/bank6.webp";
-import bank7 from "../assets/Optimized/bank7.webp";
-import bank8 from "../assets/Optimized/bank8.webp";
-import bank9 from "../assets/Optimized/bank9.webp";
-import bank10 from "../assets/Optimized/bank10.webp";
-import bank11 from "../assets/Optimized/bank11.webp";
+import bank1 from "../assets/optimized/bank1.webp";
+import bank2 from "../assets/optimized/bank2.webp";
+import bank3 from "../assets/optimized/bank3.webp";
+import bank5 from "../assets/optimized/bank5.webp";
+import bank6 from "../assets/optimized/bank6.webp";
+import bank7 from "../assets/optimized/bank7.webp";
+import bank8 from "../assets/optimized/bank8.webp";
+import bank9 from "../assets/optimized/bank9.webp";
+import bank10 from "../assets/optimized/bank10.webp";
+import bank11 from "../assets/optimized/bank11.webp";
 
 import "./Project1.css";
 

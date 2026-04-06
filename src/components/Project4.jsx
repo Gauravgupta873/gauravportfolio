@@ -1,13 +1,13 @@
 
 
-import landing from "../assets/Optimized/landing.webp";
-import land1 from "../assets/Optimized/land1.webp";
-import land2 from "../assets/Optimized/land2.webp";
-import land3 from "../assets/Optimized/land3.webp";
-import land4 from "../assets/Optimized/land4.webp";
-import land5 from "../assets/Optimized/land5.webp";
-import land6 from "../assets/Optimized/land6.webp";
-import land7 from "../assets/Optimized/land7.webp";
+import landing from "../assets/optimized/landing.webp";
+import land1 from "../assets/optimized/land1.webp";
+import land2 from "../assets/optimized/land2.webp";
+import land3 from "../assets/optimized/land3.webp";
+import land4 from "../assets/optimized/land4.webp";
+import land5 from "../assets/optimized/land5.webp";
+import land6 from "../assets/optimized/land6.webp";
+import land7 from "../assets/optimized/land7.webp";
 
 
 

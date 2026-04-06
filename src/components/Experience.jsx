@@ -1,6 +1,6 @@
 import React from "react";
 import "./Experience.css";
-import myImg from "../assets/Optimized/guarv.webp";
+import myImg from "../assets/optimized/guarv.webp";
 
 const Experience = () => {
   return (

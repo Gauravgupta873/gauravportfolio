@@ -1,6 +1,6 @@
 import "./Hero.css"
 
-import profile1 from "../assets/Optimized/profile.webp"
+import profile1 from "../assets/optimized/profile.webp"
 
 import { FaEnvelope, FaGithub, FaLinkedin, FaTwitter, FaInstagram } from "react-icons/fa"
 

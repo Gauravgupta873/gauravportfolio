@@ -1,22 +1,22 @@
 import { useState, useEffect } from "react";
 
 
-import landingpage from "../assets/Optimized/landingpage.webp";
+import landingpage from "../assets/optimized/landingpage.webp";
 // add this temporary comment
 // fix deploy
-import mobile from "../assets/Optimized/mobile.webp";
-import mobile2 from "../assets/Optimized/mobile2.webp";
-import mobile3 from "../assets/Optimized/mobile3.webp";
-import mobile4 from "../assets/Optimized/mobile4.webp";
-import mobile5 from "../assets/Optimized/mobile5.webp";
-import mobile6 from "../assets/Optimized/mobile6.webp";
+import mobile from "../assets/optimized/mobile.webp";
+import mobile2 from "../assets/optimized/mobile2.webp";
+import mobile3 from "../assets/optimized/mobile3.webp";
+import mobile4 from "../assets/optimized/mobile4.webp";
+import mobile5 from "../assets/optimized/mobile5.webp";
+import mobile6 from "../assets/optimized/mobile6.webp";
 
-import paris1 from "../assets/Optimized/paris1.webp";
-import paris2 from "../assets/Optimized/paris2.webp";
-import paris3 from "../assets/Optimized/paris3.webp";
-import paris4 from "../assets/Optimized/paris4.webp";
-import paris5 from "../assets/Optimized/paris5.webp";
-import paris6 from "../assets/Optimized/paris6.webp";
+import paris1 from "../assets/optimized/paris1.webp";
+import paris2 from "../assets/optimized/paris2.webp";
+import paris3 from "../assets/optimized/paris3.webp";
+import paris4 from "../assets/optimized/paris4.webp";
+import paris5 from "../assets/optimized/paris5.webp";
+import paris6 from "../assets/optimized/paris6.webp";
 
 import "./Project2.css";
 

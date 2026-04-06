@@ -1,8 +1,8 @@
 
 
-import stock1 from "../assets/Optimized/stock1.webp";
-import stock2 from "../assets/Optimized/stock2.webp";
-import stock4 from "../assets/Optimized/stock4.webp";
+import stock1 from "../assets/optimized/stock1.webp";
+import stock2 from "../assets/optimized/stock2.webp";
+import stock4 from "../assets/optimized/stock4.webp";
 
 import "./Project6.css";
 // add this temporary comment

@@ -1,12 +1,12 @@
 
 
-import voting from "../assets/Optimized/vote1.webp";
-import vote2 from "../assets/Optimized/vote2.webp";
-import vote3 from "../assets/Optimized/vote3.webp";
-import vote4 from "../assets/Optimized/vote4.webp";
-import vote5 from "../assets/Optimized/vote5.webp";
-import vote6 from "../assets/Optimized/vote6.webp";
-import vote7 from "../assets/Optimized/vote7.webp";
+import voting from "../assets/optimized/vote1.webp";
+import vote2 from "../assets/optimized/vote2.webp";
+import vote3 from "../assets/optimized/vote3.webp";
+import vote4 from "../assets/optimized/vote4.webp";
+import vote5 from "../assets/optimized/vote5.webp";
+import vote6 from "../assets/optimized/vote6.webp";
+import vote7 from "../assets/optimized/vote7.webp";
 
 
 
