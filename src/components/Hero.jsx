@@ -16,7 +16,7 @@ function Hero() {
 
         <div className="hero-text">
 
-          <h1>Gaurav Gupta</h1>
+          <h1>Gaurav Guptaa</h1>
 
           <h3>Software Engineer</h3>
 
