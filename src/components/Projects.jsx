@@ -1,24 +1,24 @@
 import "./Projects.css"
 
-
 import stock1 from "../assets/optimized/stockmarket.webp"
-
 import Load2 from "../assets/optimized/load2.webp"
 import banking from "../assets/optimized/banking.webp"
-
 import olympics from "../assets/optimized/olympics.webp"
-
 import certi from "../assets/optimized/certi.webp"
-
-
-
-import  voting from "../assets/optimized/voting.webp"
-
+import voting from "../assets/optimized/voting.webp"
 
 import { Link, useNavigate } from "react-router-dom";
 
 function Projects() {
-const navigate = useNavigate(); 
+
+  const navigate = useNavigate(); 
+
+  // 🔥 PRELOAD FUNCTION
+  const preloadImage = (src) => {
+    const img = new Image();
+    img.src = src;
+  };
+
   return (
 
     <section className="projects" id="projects">
@@ -28,7 +28,11 @@ const navigate = useNavigate();
       <div className="projects-grid">
 
         {/* PROJECT 1 */}
-        <Link to="/project1" className="project-link">
+        <Link 
+          to="/project1" 
+          className="project-link"
+          onMouseEnter={() => preloadImage(banking)}   // 🔥 ADD
+        >
           <div className="project-card project1-card">
 
             <div className="project-header project-header1">
@@ -42,18 +46,28 @@ const navigate = useNavigate();
               </span>
             </div>
 
-            <img src={banking} alt="banking" className="project-image"  loading="eager" decoding="async" />
+            <img 
+              src={banking} 
+              alt="banking" 
+              className="project-image"  
+              loading="eager" 
+              decoding="async" 
+            />
 
           </div>
         </Link>
 
         {/* PROJECT 4 */}
-        <Link to="/project4" className="project-link">
+        <Link 
+          to="/project4" 
+          className="project-link"
+          onMouseEnter={() => preloadImage(Load2)}   // 🔥 ADD
+        >
           <div className="project-card project4-card">
 
             <div className="project-header project-header4">
               <div>
-                <h2>Load Balancing Web Server on  Microsoft Azure</h2>
+                <h2>Load Balancing Web Server on Microsoft Azure</h2>
                 <p>Microsoft Azure, IIS, Virtual Machines </p>
               </div>
 
@@ -62,35 +76,53 @@ const navigate = useNavigate();
               </span>
             </div>
 
-            <img src={Load2} alt="LoadBalancer" className="project-image"  loading="eager" decoding="async" />
+            <img 
+              src={Load2} 
+              alt="LoadBalancer" 
+              className="project-image"  
+              loading="eager" 
+              decoding="async" 
+            />
 
           </div>
         </Link>
 
-
-                        {/* PROJECT 5 */}
-                <Link to="/project5" className="project-link">
+        {/* PROJECT 5 */}
+        <Link 
+          to="/project5" 
+          className="project-link"
+          onMouseEnter={() => preloadImage(voting)}   // 🔥 ADD
+        >
           <div className="project-card project5-card">
 
             <div className="project-header project-header5">
               <div>
-                <h2>Online Voting System </h2>
-                <p>Python, Socket Programming, Multithreading, Tkinter </p>
+                <h2>Online Voting System</h2>
+                <p>Python, Socket Programming, Multithreading, Tkinter</p>
               </div>
 
               <span className="project-type">
-                 Machine Learning 
+                Machine Learning 
               </span>
             </div>
 
-            <img src={voting} alt="blinkit" className="project-image"  loading="eager" decoding="async" />
+            <img 
+              src={voting} 
+              alt="voting" 
+              className="project-image"  
+              loading="eager" 
+              decoding="async" 
+            />
 
           </div>
         </Link>
 
         {/* PROJECT 2 */}
-
-                <Link to="/project2" className="project-link">
+        <Link 
+          to="/project2" 
+          className="project-link"
+          onMouseEnter={() => preloadImage(olympics)}   // 🔥 ADD
+        >
           <div className="project-card project2-card">
 
             <div className="project-header project-header2">
@@ -104,36 +136,23 @@ const navigate = useNavigate();
               </span>
             </div>
 
-            <img src={olympics} alt="olympics" className="project-image"  loading="eager" decoding="async" />
+            <img 
+              src={olympics} 
+              alt="olympics" 
+              className="project-image"  
+              loading="eager" 
+              decoding="async" 
+            />
 
           </div>
         </Link>
- 
-        {/* PROJECT 3 
-                <Link to="/project3" className="project-link">
-          <div className="project-card project3-card">
 
-            <div className="project-header project-header3">
-              <div>
-                <h2>Uber Ride Data Science Analysis</h2>
-                <p>Python, Pandas, NumPy, Matplotlib, Scikit-learn</p>
-              </div>
-
-              <span className="project-type">
-                 Data Science Analysis 
-              </span>
-            </div>
-
-            <img src={blinkit} alt="blinkit" className="project-image"/>
-
-          </div>
-        </Link> 
-        */}
-
-
-
-                {/* PROJECT 6 */}
-                <Link to="/project6" className="project-link">
+        {/* PROJECT 6 */}
+        <Link 
+          to="/project6" 
+          className="project-link"
+          onMouseEnter={() => preloadImage(stock1)}   // 🔥 ADD
+        >
           <div className="project-card project6-card">
 
             <div className="project-header project-header6">
@@ -143,76 +162,81 @@ const navigate = useNavigate();
               </div>
 
               <span className="project-type">
-                 Machine Learning 
+                Machine Learning 
               </span>
             </div>
 
-            <img src={stock1} alt="blinkit" className="project-image"  loading="eager" decoding="async" />
+            <img 
+              src={stock1} 
+              alt="stock" 
+              className="project-image"  
+              loading="eager" 
+              decoding="async" 
+            />
 
           </div>
         </Link>
 
       </div>
 
+      {/* BOTTOM SECTION */}
+      <div className="projects-bottom-images">
 
+        <div className="img2-wrapper">
+          <Link to="/allprojects">
 
+            <video
+              src="/2.mp4"
+              autoPlay
+              muted
+              loop
+              playsInline
+              className="img2"
+            />
 
+            <div className="img-top-text">
+              Like these projects?
+            </div>
 
-      {/* 🔥 NEW SECTION (PROJECTS KE LAST ME) */}
-<div className="projects-bottom-images">
+            <div className="img-overlay-text">
+              There's more to explore!
+            </div>
 
-<div className="img2-wrapper">
+          </Link>
+        </div>
 
-  <Link to="/allprojects">
+        <div className="img1-wrapper">
 
-    <video
-      src="/2.mp4"
-      autoPlay
-      muted
-      loop
-      playsInline
-      className="img2"
-    />
+          <img 
+            src={certi} 
+            alt="extra1" 
+            className="img1"  
+            loading="eager" 
+            decoding="async" 
+          />
 
-    <div className="img-top-text">
-      Like these projects?
-    </div>
+          <div className="img1-top-text">
+            <h2>Certifications</h2>
+            <ul>
+              <li>NPTEL-SWAYAM: Introduction to Computer and Network Performance Analysis using Queuing Systems.</li>
+              <li>NPTEL-SWAYAM: Python For Data Science.</li>
+              <li>Accenture Data Analytics and Visualization Job Simulation.</li>
+              <li>Trust and Security with Google Cloud.</li>
+              <li>Cloud Platform Job Simulation.</li>
+            </ul>
+          </div>
 
-    <div className="img-overlay-text">
-      There's more to explore!
-    </div>
+        </div>
 
-  </Link>
+      </div>
 
-</div>
- <div className="img1-wrapper">
+      <div 
+        className="footer-top-banner"
+        onClick={() => navigate("/experience")}
+      >
+        👉 "A glimpse into my experience and achievements — click to explore"
+      </div>
 
-  <img src={certi} alt="extra1" className="img1"  loading="eager" decoding="async" />
-
-  <div className="img1-top-text">
-  <h2>Certifications</h2>
-  <ul>
-        <li>NPTEL-SWAYAM: Introduction to Computer and Network Performance Analysis using Queuing Systems.</li>
-     <li>NPTEL-SWAYAM: Python For Data Science.</li>
-    <li>Accenture Data Analytics and Visualization Job Simulation.</li>
-    <li>Trust and Security with Google Cloud.</li>
-    <li>Cloud Platform Job Simulation.</li>
-
-
-  </ul>
-  </div>
-
-</div>
-
-
-</div>
-
-<div 
-  className="footer-top-banner"
-  onClick={() => navigate("/experience")}
->
-  👉 "A glimpse into my experience and achievements — click to explore"
-</div>
     </section>
   )
 }

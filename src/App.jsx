@@ -37,18 +37,16 @@ function App() {
     }
   }, []);
 
-  // ✅ AUTO PRELOAD ALL IMAGES
-  useEffect(() => {
-    const images = import.meta.glob("./assets/Optimized/*.webp", {
-      eager: true,
-    });
+useEffect(() => {
+  const images = import.meta.glob("./assets/Optimized/*.webp");
 
-    Object.values(images).forEach((imgModule) => {
+  Object.values(images).forEach((imgFn) => {
+    imgFn().then((mod) => {
       const img = new Image();
-      img.src = imgModule.default;
+      img.src = mod.default;
     });
-  }, []);
-
+  });
+}, []);
   return (
     <>
       <ScrollToTop />
