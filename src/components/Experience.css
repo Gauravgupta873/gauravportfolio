@@ -165,19 +165,18 @@
   }
 
   .experience-left h1 {
-    font-size: 48px;
-    margin-top: 10px;
+    font-size: 42px;
     letter-spacing: 2px;
   }
 
   .experience-left p {
-    font-size: 25px;
+    font-size: 20px;
   }
 
   /* IMAGE */
   .experience-right img {
-    width: 330px;
-    margin-top: 5px;
+    width: 260px;
+    margin-top: 10px;
   }
 
   /* ABOUT */
