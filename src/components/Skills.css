@@ -141,6 +141,11 @@ transform: translateY(-5px);
 grid-template-columns: 1fr;
 }
 
+.big-card h2{
+  margin-top: 1px;
+  
+}
+
 .skills-cards > * {
 grid-column: auto !important;
 }

@@ -7,7 +7,7 @@ import LoadBalancer from "../assets/optimized/load3.webp";
 import olympics from "../assets/optimized/olympics.webp";
 import blinkit from "../assets/optimized/blinkit.webp";
 import voting from "../assets/optimized/voting.webp";
-import stock from "../assets/optimized/stock1.webp";
+import stock from "../assets/optimized/stockmarket.webp";
 
 import { useNavigate } from "react-router-dom";
 
