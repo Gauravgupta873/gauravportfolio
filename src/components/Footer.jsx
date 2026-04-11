@@ -59,7 +59,7 @@ function Footer(){
   </a>
 
   <a 
-    href="https://x.com/gauravgupt951" 
+    href="https://x.com/GauravGuptaa3" 
     target="_blank" 
     rel="noopener noreferrer"
   >

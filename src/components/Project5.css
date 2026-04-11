@@ -95,7 +95,8 @@
 /* 🔥 Responsive */
 @media (max-width: 768px) {
   .project5-content {
-    padding: 0 20px;
+    padding: 0 15px;
+
   }
 
   .project5-heading {
@@ -107,11 +108,12 @@
   }
 
   .project5-bottom-content {
-    padding: 15px;
+    padding: 10px;
   }
 
   .project5-bottom-content p {
     font-size: 14px;
+
   }
   .project5-bottom-content {
   width: 100%;                /* 🔥 full width for better readability */

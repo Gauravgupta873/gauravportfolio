@@ -36,7 +36,7 @@ function Allproject() {
             <img src={blinkit} alt="project4" className="ap-img"   loading="eager" decoding="async" />
           </div>
           <div className="ap-content">
-            <p className="ap-type ap-type-4">Case Study</p>
+            <p className="ap-type ap-type-4">Data Analysis</p>
             <h3 className="ap-heading ap-heading-4">Blinkit Data Analysis</h3>
           </div>
         </div>
@@ -49,7 +49,7 @@ function Allproject() {
             <img src={stock} alt="project6" className="ap-img" loading="eager" decoding="async"  />
           </div>
           <div className="ap-content">
-            <p className="ap-type ap-type-6">Case Study</p>
+            <p className="ap-type ap-type-6">Machine Learning</p>
             <h3 className="ap-heading ap-heading-6">Stock Market Prediction</h3>
           </div>
         </div>
@@ -62,7 +62,7 @@ function Allproject() {
             <img src={LoadBalancer} alt="project2" className="ap-img"  loading="eager" decoding="async" />
           </div>
           <div className="ap-content">
-            <p className="ap-type ap-type-2">Frontend</p>
+            <p className="ap-type ap-type-2">Microsoft Azure</p>
             <h3 className="ap-heading ap-heading-2">Load Balancer </h3>
           </div>
         </div>
@@ -73,7 +73,7 @@ function Allproject() {
             <img src={voting} alt="project3" className="ap-img"  loading="eager" decoding="async" />
           </div>
           <div className="ap-content">
-            <p className="ap-type ap-type-5">UI Design</p>
+            <p className="ap-type ap-type-5">Python</p>
             <h3 className="ap-heading ap-heading-5">Online Voting System</h3>
           </div>
         </div>
@@ -95,7 +95,7 @@ function Allproject() {
             <img src={olympics} alt="project3" className="ap-img"  loading="eager" decoding="async" />
           </div>
           <div className="ap-content">
-            <p className="ap-type ap-type-3">UI Design</p>
+            <p className="ap-type ap-type-3">Data Analysis</p>
             <h3 className="ap-heading ap-heading-3">Paris Olympics 2024 Analytics</h3>
           </div>
         </div>
