@@ -218,7 +218,7 @@ grid-column: auto !important;
 
   .card,
   .big-card {
-    width: 100% !important;
+    width: 102% !important;
     height: auto;
     padding: 20px;
   }

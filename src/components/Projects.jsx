@@ -223,6 +223,7 @@ function Projects() {
               <li>Accenture Data Analytics and Visualization Job Simulation.</li>
               <li>Trust and Security with Google Cloud.</li>
               <li>Cloud Platform Job Simulation.</li>
+              <li>Cyber Security - Coursera.</li>
             </ul>
           </div>
 

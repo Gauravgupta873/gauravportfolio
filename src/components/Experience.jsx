@@ -1,6 +1,7 @@
 import React from "react";
 import "./Experience.css";
-import myImg from "../assets/optimized/guarv.webp";
+
+import myImg1 from "../assets/optimized/guarv2.webp";
 
 const Experience = () => {
   return (
@@ -15,7 +16,7 @@ const Experience = () => {
         </div>
 
         <div className="experience-right">
-          <img src={myImg} alt="My Image"  loading="eager" decoding="async"  />
+          <img src={myImg1} alt="My Image"  loading="eager" decoding="async"  />
         </div>
 
       </div>
@@ -34,6 +35,48 @@ I focus on performance, clean code, and real-world problem solving.
       </div>
       {/* 🔥 EDUCATION SECTION */}
 <div className="education-section">
+
+
+
+  
+  <h2>Experience</h2>
+
+  <div className="timeline">
+
+
+             <div className="timeline-item">
+               <div className="timeline-dot"></div>
+               <div className="timeline-content">
+                 <span>2026 - Present</span>
+                 <h3>Data Analyst Intern</h3>
+                 <p>Bluestock Fintech </p>
+                 <p>Working with real-world financial data to derive insights and improve decision-making.</p>
+                 <p>Developing skills in data analysis, visualization, and problem-solving.</p>
+                </div>
+              </div>
+    
+
+
+    <div className="timeline-item">
+      <div className="timeline-dot"></div>
+      <div className="timeline-content">
+        <span>2025</span>
+        <h3>Software Engineer Intern</h3>
+        <p>V&K Softech Solutions PVT.LTD, Pune</p>
+        <p>Developed responsive and scalable web applications during internship.
+Focused on performance optimization and improving user experience.</p>
+      </div>
+    </div>
+
+  
+
+  </div>
+
+
+</div>
+     {/* 🔥 EDUCATION SECTION */}
+<div className="education-section">
+
 
   <h2>Education</h2>
 
@@ -63,39 +106,6 @@ I focus on performance, clean code, and real-world problem solving.
         <span>2019 - 2020</span>
         <h3>Secondary School</h3>
         <p>St.Xaviers High Secondary School.</p>
-      </div>
-    </div>
-
-  </div>
-
-</div>
-     {/* 🔥 EDUCATION SECTION */}
-<div className="education-section">
-
-  <h2>Experience</h2>
-
-  <div className="timeline">
-
-{/*
-             <div className="timeline-item">
-               <div className="timeline-dot"></div>
-               <div className="timeline-content">
-                 <span>2015 - 2022</span>
-                 <h3>B.Tech</h3>
-                 <p>Bharati Vidyapeeth (Deemed to be University) College of Engineering (BVDUCOE), Pune</p>
-                </div>
-              </div>
-    
- */}
-
-    <div className="timeline-item">
-      <div className="timeline-dot"></div>
-      <div className="timeline-content">
-        <span>2025</span>
-        <h3>Software Engineer Intern</h3>
-        <p>V&K Softech Solutions PVT.LTD, Pune</p>
-        <p>Developed responsive and scalable web applications during internship.
-Focused on performance optimization and improving user experience.</p>
       </div>
     </div>
 

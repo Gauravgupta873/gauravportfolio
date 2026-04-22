@@ -69,10 +69,12 @@
 /* ROLE */
 
 .hero-text h3 {
-  font-size: 22px;
-  font-weight: 400;
-  color: #666;
+  font-size: 18px;
+  font-weight: 380;
+  color: #989898;
   margin-bottom: 15px;
+    letter-spacing: 1px;
+  transition: all 0.3s ease;
 }
 
 /* DESCRIPTION */
@@ -113,6 +115,17 @@
   transform: scale(1.15);
 }
 
+.cursor {
+  display: inline-block;
+  margin-left: 5px;
+  animation: blink 0.7s infinite;
+}
+
+@keyframes blink {
+  0% { opacity: 1; }
+  50% { opacity: 0; }
+  100% { opacity: 1; }
+}
 /* ---------------- */
 /* TABLET */
 /* ---------------- */
@@ -141,6 +154,7 @@
     font-size: 48px;
   }
 }
+
 
 /* ---------------- */
 /* MOBILE */
